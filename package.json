@@ -2,7 +2,7 @@
     "name": "quandler",
     "fullname": "Quandler",
     "description": "An api for accessing Quandl and other financial data sources",
-    "version": "0.1.0",
+    "version": "0.0.0",
     "keywords": [
         "quandl",
         "yahoo",
