@@ -1,7 +1,7 @@
-Project Template
-================
+Quandler
+========
 
-> Lorem ipsum dolar sit amet...
+> An api for accessing Quandl and other financial data sources
 
 
 
@@ -15,15 +15,8 @@ Installation
 ------------
 
 ~~~
-% npm install project-tmpl
+% npm install quandler
 ~~~
-
-
-
-Documentation
--------------
-
-* [API documentation](API.md)
 
 
 
@@ -31,11 +24,15 @@ Documentation
 Dependencies
 ------------
 
-These are installed when **project-tmpl** is installed.
+These are installed when **quandler** is installed.
 
 ~~~
-underscore: 1.x
-protean:    0.x
+protean:       0.x
+yahoo-finance: *
+quandl:        *
+superagent:    1.x
+csv:           0.x
+express:       4.x
 ~~~
 
 ### Development Dependencies ###
@@ -45,12 +42,12 @@ Installed when you run `npm install` in the package directory.
 ~~~
 mocha:       2.x
 should:      6.x
+eslint:      0.x
 del:         *
 gulp:        3.x
+gulp-ejs:    1.x
 gulp-util:   *
-gulp-ejs:    *
 gulp-concat: *
-gulp-jsdoc:  *
 ~~~
 
 
@@ -58,7 +55,7 @@ gulp-jsdoc:  *
 Report an Issue
 ---------------
 
-* [Bugs](http://github.com/jhamlet/project-tmpl/issues)
+* [Bugs](http://github.com/jhamlet/quandler/issues)
 * Contact the author: <jerry@hamletink.com>
 
 
@@ -66,7 +63,7 @@ Report an Issue
 License
 -------
 
-> Copyright (c) 2014 Jerry Hamlet <jerry@hamletink.com>
+> Copyright (c) 2015 Jerry Hamlet <jerry@hamletink.com>
 > 
 > Permission is hereby granted, free of charge, to any person
 > obtaining a copy of this software and associated documentation

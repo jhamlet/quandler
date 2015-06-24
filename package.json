@@ -26,6 +26,7 @@
         "eslint":       "0.x",
         "del":          "*",
         "gulp":         "3.x",
+        "gulp-ejs":     "1.x",
         "gulp-util":    "*",
         "gulp-concat":  "*"
     },
@@ -46,6 +47,5 @@
     },
     "bugs": {
         "url": "http://github.com/jhamlet/quandler/issues"
-    },
-    "private": true
+    }
 }
