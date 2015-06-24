@@ -1,0 +1,51 @@
+{
+    "name": "quandler",
+    "fullname": "Quandler",
+    "description": "An api for accessing Quandl and other financial data sources",
+    "version": "0.1.0",
+    "keywords": [
+        "quandl",
+        "yahoo",
+        "financial",
+        "stocks",
+        "quotes",
+        "fundamental"
+    ],
+    "main": "./lib/index.js",
+    "dependencies": {
+        "protean":          "0.x",
+        "yahoo-finance":    "*",
+        "quandl":           "*",
+        "superagent":       "1.x",
+        "csv":              "0.x",
+        "express":          "4.x"
+    },
+    "devDependencies": {
+        "mocha":        "2.x",
+        "should":       "6.x",
+        "eslint":       "0.x",
+        "del":          "*",
+        "gulp":         "3.x",
+        "gulp-util":    "*",
+        "gulp-concat":  "*"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/gulp",
+        "clobber": "./node_modules/.bin/gulp clobber",
+        "test": "./node_modules/.bin/mocha -R spec test/test-*.js"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/quandler/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/quandler.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jhamlet/quandler/issues"
+    },
+    "private": true
+}
